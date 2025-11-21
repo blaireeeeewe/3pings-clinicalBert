@@ -1,0 +1,19 @@
+﻿Member,Trial #,Learning Rate,Batch Size,Weight Decay,Epochs,F1 Score,Accuracy,Precision,Recall,Training Time (s),Timestamp
+Hernandez,1,0.000040,32,0.0275,2,0.8317,0.8147,0.8194,0.8306,2348.7,2025-11-08 14:44:21
+Hernandez,2,0.000022,32,0.0058,2,0.8276,0.8419,0.8236,0.8473,2424.7,2025-11-08 14:44:21
+Hernandez,3,0.000031,16,0.0141,2,0.8733,0.8802,0.8609,0.8649,4831.7,2025-11-08 14:44:21
+Hernandez,4,0.000022,32,0.0113,2,0.8269,0.8166,0.8124,0.8397,2353.4,2025-11-08 14:44:21
+Hernandez,5,0.000038,16,0.0112,2,0.8571,0.8416,0.8512,0.8534,4890.6,2025-11-08 14:44:21
+Hernandez,6,0.000024,16,0.0229,2,0.8316,0.8217,0.8061,0.8407,4795.8,2025-11-08 14:44:21
+,,,,,,,,,,,
+,,,,,,,,,,,
+Metric,Random Search (Automated),Exercise F2 (Manual),Notes,,,,,,,,
+Best F1 Score,0.8733,0.8200,Random Search uses automated optimization,,,,,,,,
+Total Time (seconds),21645.0,5400.0,Time for 6 automated trials,,,,,,,,
+Efficiency (F1/Time),0.000040,0.000152,Higher is better,,,,,,,,
+,,,,,,,,,,,
+Analysis Notes:,,,,,,,,,,,
+1. Random Search uses automated hyperparameter optimization,,,,,,,,,,,
+2. Exercise F2 used manual hyperparameter tuning,,,,,,,,,,,
+3. Random Search can explore continuous hyperparameter ranges,,,,,,,,,,,
+4. Efficiency = Best F1 Score / Total Time,,,,,,,,,,,
